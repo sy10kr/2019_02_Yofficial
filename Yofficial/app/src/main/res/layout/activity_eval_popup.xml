@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="300dp"
+    android:background="@drawable/popup_shape"
+    android:layout_height="wrap_content"
+    android:id="@+id/rate_popup_linear">
+
+    <!-- 타이틀바 -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="당신의 요리에 별점을 매겨 주세요!"
+            android:textSize="17sp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            />
+
+
+    </LinearLayout>
+    <!-- //end 타이틀바 -->
+
+    <TextView
+        android:id="@+id/rateText"
+        android:text="내 음식 점수는?"
+        android:textSize="15sp"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="3dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <!-- Notice -->
+    <LinearLayout
+        android:paddingLeft="24dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="90dp"
+            android:id="@+id/first_star"
+            android:maxWidth="10dp"
+            android:maxHeight="10dp"
+            android:src="@drawable/empty_star" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="90dp"
+            android:id="@+id/second_star"
+            android:maxWidth="10dp"
+            android:maxHeight="10dp"
+            android:src="@drawable/empty_star" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="90dp"
+            android:id="@+id/third_star"
+            android:maxWidth="10dp"
+            android:maxHeight="10dp"
+            android:src="@drawable/empty_star" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="90dp"
+            android:id="@+id/fourth_star"
+            android:maxWidth="10dp"
+            android:maxHeight="10dp"
+            android:src="@drawable/empty_star" />
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="90dp"
+            android:id="@+id/fifth_star"
+            android:maxWidth="10dp"
+            android:maxHeight="10dp"
+            android:src="@drawable/empty_star" />
+
+
+
+    </LinearLayout>
+
+    <View
+        android:background="#66bdbdbd"
+        android:layout_width="match_parent"
+        android:layout_height="1dp" />
+
+    <!-- 닫기 버튼 -->
+    <Button
+        android:text="완료"
+        android:textSize="15sp"
+        android:textColor="#ff7a00"
+        android:padding="5dp"
+        android:gravity="center"
+        android:background="@drawable/popup_shape"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:onClick="mOnClose"/>
+    <!--// 닫기 버튼 -->
+    <!-- Notice -->
+
+
+</LinearLayout>

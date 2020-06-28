@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="data_servings">
+        <item>인원수</item>
+        <item>1인분</item>
+        <item>2인분</item>
+        <item>3인분</item>
+        <item>4인분</item>
+        <item>5인분</item>
+        <item>6인분이상</item>
+    </string-array>
+    <string-array name="data_mainIng">
+        <item>주재료</item>
+        <item>소고기</item>
+        <item>닭고기</item>
+        <item>돼지고기</item>
+        <item>생선</item>
+        <item>야채</item>
+        <item>해물류</item>
+        <item>육류</item>
+        <item>쌀</item>
+        <item>밀가루</item>
+        <item>과일</item>
+        <item>달걀,유제품</item>
+    </string-array>
+
+    <string-array name="data_type">
+        <item>타입</item>
+        <item>튀김</item>
+        <item>삶기</item>
+        <item>굽기</item>
+        <item>볶음</item>
+        <item>끓이기</item>
+        <item>조림</item>
+        <item>비빔</item>
+        <item>찜</item>
+        <item>회</item>
+        <item>샐러드</item>
+    </string-array>
+
+    <string-array name="data_feature">
+        <item>특징</item>
+        <item>담백</item>
+        <item>매콤</item>
+        <item>달콤</item>
+        <item>얼큰</item>
+        <item>시원</item>
+        <item>고소</item>
+    </string-array>
+
+    <string-array name="data_hour">
+        <item>시</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="data_minute">
+        <item>분</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+
+    </string-array>
+
+    <string-array name="data_second">
+        <item>초</item>
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+
+    </string-array>
+    <string-array name="data_ingredient_class">
+        <item>모두</item>
+        <item>육류</item>
+        <item>채소류</item>
+        <item>곡물류</item>
+        <item>과일류</item>
+        <item>해산물류</item>
+        <item>달걀류</item>
+        <item>견과류</item>
+        <item>면류</item>
+        <item>유지류</item>
+        <item>양념류</item>
+
+    </string-array>
+
+</resources>
